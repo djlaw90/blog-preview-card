@@ -32,9 +32,15 @@ html, body {
     padding: 20px;
     border-radius: 10px;
     background-color: hsl(0, 0%, 100%);
+    
+}
+
+.card:hover {
+    cursor: pointer;
     box-shadow: 
-        7px 0 0 #000,   /* Right shadow */
-        7px 7px 0 #000; /* Corner shadow for smoothness */
+        7px 0 0 #000,   
+        7px 7px 0 #000; 
+        transition: transform 0.3s ease, box-shadow 0.3s ease;
 }
 
 .card-type {
@@ -43,15 +49,19 @@ html, body {
     background-color: hsl(47, 88%, 63%);
     padding: 5px 5px;
     border-radius: 5px;
-    display: inline-flex; /* Aligns to the content */
-    align-items: center; /* Vertically centers the text */
+    display: inline-flex;
+    align-items: center;
 }
 
 .card-title {
     font-weight: bold;
     font-size: 1.5em;
+    transition: text-decoration 0.3s ease;
 }
 
+.card:hover .card-title {
+    text-decoration: underline; /* Underlines the card title */
+}
 
 .card-img {
     width: 100%;
