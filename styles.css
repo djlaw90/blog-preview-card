@@ -5,6 +5,7 @@ html, body {
     background-color: hsl(47, 88%, 63%);
     align-items: center;
     justify-content: center;
+    font-family: "Figtree", serif;
 }
 
 .card-container {
@@ -26,7 +27,7 @@ html, body {
     flex-direction: column;
     justify-content: center;
     border: 1px solid black;
-    gap: 5px;
+    gap: 10px;
     width: 320px;
     padding: 20px;
     border-radius: 10px;
@@ -38,9 +39,9 @@ html, body {
 
 .card-type {
     width: 20%;
-    font-weight: bold;
+    font-weight: 800;
     background-color: hsl(47, 88%, 63%);
-    padding: 2px 5px;
+    padding: 5px 5px;
     border-radius: 5px;
     display: inline-flex; /* Aligns to the content */
     align-items: center; /* Vertically centers the text */
@@ -60,7 +61,7 @@ html, body {
 .content-author {
     margin-top: auto;
     margin-bottom: auto;
-    font-weight: bold;
+    font-weight: 800;
 }
 
 .author-container {
@@ -69,7 +70,7 @@ html, body {
 }
 
 .author-img {
-    width: 40px;
+    width: 35px;
 }
 
 
